@@ -195,14 +195,14 @@
             </LinearLayout>
             <TextView
                 android:gravity="center"
-                android:textColor="#f00"
+                android:textColor="#f000"
                 android:textSize="18px"
-                android:text="萌想童行——气象宝宝观测站"
+                android:text="长沙市气象科普基地"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"/>
         </LinearLayout>
-
+<!--萌想童行——气象宝宝观测站-->
 
         <com.xixun.appchangsha.ShiDuView
             android:id="@+id/sd"

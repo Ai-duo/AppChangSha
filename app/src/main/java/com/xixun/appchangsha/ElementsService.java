@@ -935,7 +935,13 @@ public class ElementsService extends Service {
                     if (!isNum(js1)) {
                         // js = "";
                     } else {
-                        js = Float.parseFloat(infoss[qc + dmgdIndex.get(2)]) / 10 + "";
+                        float s = Float.parseFloat(js1) / 10;
+                        if(s==0.0){
+                            js="--";
+                        }else {
+
+                            js = Float.parseFloat(js1) / 10 + "";
+                        }
                     }
                 }
             } catch (Exception e) {
